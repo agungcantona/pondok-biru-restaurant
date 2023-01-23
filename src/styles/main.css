@@ -10,6 +10,10 @@ html, body{
 a{
   text-decoration: none;
   color: black;
+  display: flex;
+  align-items: center;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 ul, li{
@@ -86,13 +90,13 @@ ul, li{
 
 .nav-title{
   color: white;
-  font-size: 16px;
+  font-size: 24px;
   padding: 24px;
 }  
 
 .nav-icon{
   color: white;
-  font-size: 36px;
+  font-size: 44px;
   display: flex;
   justify-content: right;
   padding-right: 24px;
@@ -189,6 +193,8 @@ ul, li{
 }
 
 .about-link{
+  margin-left: 6px;
+  justify-content: center;
   text-decoration: underline;
 }
 

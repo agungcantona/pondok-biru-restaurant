@@ -4,8 +4,7 @@ import {createRestaurantsTemplateList} from '../templates/template-creator';
 const ListOfRestaurant = {
   async render() {
     return `
-        <h1 aria-label="Restaurant List" class="main-title" tabindex="0">Restaurant List</h1>
-        <!-- Daftar Restoran -->
+        <h1 aria-label="Restaurant List" class="main-title template" tabindex="0">Restaurant List</h1>
         <div class="restaurant-list" id="restaurant-all-list">
         </div>
       `;

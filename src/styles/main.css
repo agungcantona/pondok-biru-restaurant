@@ -50,13 +50,11 @@ ul, li{
   right: -300px;
   transition: transform 0.3s ease-in-out;
   z-index: 99;
-  display: none;
 }
 
 .side-nav.open{
   transition: transform 0.3s ease-in-out;
   transform: translate( -300px, 0 );
-  display: block;
 }
 
 .side-content{
@@ -112,13 +110,13 @@ ul, li{
 }
 
 .nav-list{
-  margin: 0 4px;
-  padding: 8px;
+  margin: 0 2px;
+  padding: 4px;
 }
 
 .nav-list a{
   color: white;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .nav-list a:hover{
@@ -268,126 +266,156 @@ ul, li{
   font-size: 14px;
 }
 
-@media screen and (min-width: 400px) {
-  .nav-title{
-    font-size: 24px;
-  }
-  
-  .hero-text{
-    font-size: 48px;
-  }
+.detail-link{
+  font-size: 16px;
+  text-decoration: underline;
+  color: rgb(46, 46, 255);
 }
 
-@media screen and (min-width: 680px) {
-  .nav-icon, .side-nav{
-    display: none;
-  }
-  
-  .nav-content{
-    display: flex;
-  }
-
-  .about-img{
-    max-width: 80%;
-  }
-
-  .about-description{
-    margin: 0;
-    padding: 8px 16px;
-  }
-  
-  .restaurant-description{
-    font-size: 14px;
-  }
-  
-  .restaurant-list{
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .footer-container p{
-    font-size: 16px;
-  }
+.see-all-link{
+  font-size: 24px;
+  text-decoration: underline;
+  color: rgb(46, 46, 255);
+  padding: 0 16px 16px 16px;
+  margin: 0 8px 8px 8px;
+  display: flex;
+  justify-content: center;
 }
 
-
-@media screen and (min-width: 1000px) {
-  .main-title{
-    font-size: 48px;
-  }
-
-  .about-content{
-    padding: 8px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 16px 32px;
-    align-items: flex-start;
-  }
-
-  .about-img{
-    max-width: 100%;
-  }
-
-  .about-description{
-    margin: 0;
-    padding: 0 16px;
-    text-align: justify;
-  }
-
-  .about-description p{
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-  }
-
-  .about-list{
-    display: flex;
-    align-items: center;
-    margin: 8px 16px;
-  }
-
-  .about-icon{
-    margin-right: 16px;
-  }
-  
-  .restaurant-list{
-    max-width: 1600px;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .list-container{
-    margin-top: 48px;
-  }
-  
-  .restaurant-name{
-    font-size: 24px;
-  }
-  
-  .restaurant-city{
-    font-size: 16px;
-  }
-  
-  .restaurant-rate{
-    font-size: 16px;
-  }
-
-  .restaurant-description{
-    font-size: 14px;
-  }
-
-  .footer-container p{
-    font-size: 18px;
-  }
-
+.link-icon{
+  font-size: 18px;
 }
 
-@media screen and (min-width: 1200px) {
-  .about-content{
-    grid-template-columns: 2fr 3fr;
-  }
+.see-all-icon{
+  font-size: 24px;
 }
 
-@media screen and (min-width: 1400px) {
-  .restaurant-list{
-    column-gap: 16px;
-  }
+.detail{
+  width: 100%;
+}
+
+.detail-title{
+  font-size: 36px;
+  text-align: center;
+}
+
+.detail-container{
+  margin: 8px;
+  padding: 8px;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.detail-description{
+  padding: 16px 8px 8px 8px;
+}
+
+.detail-img{
+  width: 100%;
+}
+
+.detail-alamat{
+  margin: 0;
+  color: #AEBDCA;
+  font-size: 20px;
+}
+
+.detail-city{
+  margin-top: 4px;
+  margin-bottom: 16px;
+  color: #AEBDCA;
+  font-size: 16px;
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detail-rate{
+  margin: 0;
+  color: #ffd000;
+  font-size: 16px;
+}
+
+.category-links{
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+}
+
+.category-link{
+  font-size: 16px;
+  text-decoration: underline;
+  color: rgb(46, 46, 255);
+}
+
+.description-main{
+  text-align: justify;
+  font-size: 14px;
+}
+
+.menu{
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu-title{
+  text-align: center;
+  padding: 8px;
+  margin: 0;
+}
+
+.detail-sub{
+  font-size: 18px;
+  text-align: center;
+  padding: 4px;
+  margin: 0;
+}
+
+.menu-content{
+  font-size: 14px;
+}
+
+.review{
+  padding: 16px 0;
+}
+
+.review-container{
+  width: 100%;
+  background-color: #AEBDCA;
+  padding: 20px 8px;
+}
+
+.review-container:nth-child(odd){
+  background-color: #d7dde3;
+}
+
+.review-container:nth-child(odd) .reviewer-date{
+  color: white;
+}
+
+.review-container:nth-child(even){
+  background-color: white;
+}
+
+.reviewer-name{
+  margin: 0;
+  font-weight: bold;  
+}
+
+.reviewer-description{
+  margin: 4px 0;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.reviewer-date{
+  margin: 4px 0;
+  font-size: 14px;
+  color: #AEBDCA;
 }

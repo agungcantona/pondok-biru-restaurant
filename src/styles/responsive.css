@@ -1,0 +1,156 @@
+
+@media screen and (min-width: 400px) {
+    .nav-title{
+      font-size: 24px;
+    }
+    
+    .hero-text{
+      font-size: 48px;
+    }
+  }
+  
+  @media screen and (min-width: 680px) {
+    .nav-icon, .side-nav{
+      display: none;
+    }
+    
+    .nav-content{
+      display: flex;
+    }
+  
+    .about-img{
+      max-width: 80%;
+    }
+  
+    .about-description{
+      margin: 0;
+      padding: 8px 16px;
+    }
+    
+    .restaurant-description{
+      font-size: 14px;
+    }
+    
+    .restaurant-list{
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .footer-container p{
+      font-size: 16px;
+    }
+
+    .nav-bar{
+      width: 100%;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1.5fr;
+      align-items: center;
+      background-color: #13005A;
+    }  
+  }
+  
+  
+  @media screen and (min-width: 960px) {
+    .main-title{
+      font-size: 48px;
+    }
+  
+    .about-content{
+      padding: 8px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 16px 32px;
+      align-items: flex-start;
+    }
+  
+    .about-img{
+      max-width: 100%;
+    }
+  
+    .about-description{
+      margin: 0;
+      padding: 0 16px;
+      text-align: justify;
+    }
+  
+    .about-description p{
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+    }
+  
+    .about-list{
+      display: flex;
+      align-items: center;
+      margin: 8px 16px;
+    }
+  
+    .about-icon{
+      margin-right: 16px;
+    }
+    
+    .restaurant-list{
+      max-width: 1600px;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .list-container{
+      margin-top: 48px;
+    }
+    
+    .restaurant-name{
+      font-size: 24px;
+    }
+    
+    .restaurant-city{
+      font-size: 16px;
+    }
+    
+    .restaurant-rate{
+      font-size: 16px;
+    }
+  
+    .restaurant-description{
+      font-size: 14px;
+    }
+  
+    .footer-container p{
+      font-size: 18px;
+    }
+
+    .detail{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .detail-container{
+      max-width: 800px;
+    }
+
+    .detail-img{
+      max-width: 750px;
+    }
+
+    .nav-list{
+      margin: 0 4px;
+      padding: 8px;
+    }
+  
+    .nav-list a{
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .about-content{
+      grid-template-columns: 2fr 3fr;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .restaurant-list{
+      column-gap: 16px;
+    }
+  }
+  

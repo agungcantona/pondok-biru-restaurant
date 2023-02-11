@@ -1,7 +1,7 @@
 {
     "id": "pondok-biru-restaurant-lite-pwa-1",
     "start_url": "./index.html",
-    "name": "Movie Catalogue Lite",
+    "name": "Pondok Biru Restaurant",
     "short_name": "Movie Lite",
     "description": "Pondok Biru Restaurant",
     "display": "standalone",

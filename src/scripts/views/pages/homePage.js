@@ -4,17 +4,14 @@ import {aboutPageTemplate, createRestaurantsTemplateList} from '../templates/tem
 const Home = {
   async render() {
     return `
-    <!-- Hero Image -->
     <div class="hero-image" aria-label="hero-image" tabindex="0">
     <h1 class="hero-text">Pondok Biru</h1>
     </div>
     
-    <!-- About Pondok Biru -->
     <section class="about-container">
     </section>
 
     <h1 aria-label="Restaurant List" class="main-title" tabindex="0">Restaurant List</h1>
-    <!-- Daftar Restoran -->
     <div class="restaurant-list" id="restaurant-small-list">
     </div>
 

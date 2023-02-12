@@ -10,7 +10,7 @@
   }
   
   @media screen and (min-width: 680px) {
-    .nav-icon, .side-nav{
+    .nav-icon, .side-nav, .nav-button{
       display: none;
     }
     

@@ -30,6 +30,7 @@ ul, li{
   color: white;
   padding: 24px 32px;
   background-color: #1C82AD;
+  z-index: 2;
 }
 
 .skip-link:focus{
@@ -104,9 +105,14 @@ ul, li{
   margin: 0;
 }  
 
+.nav-button{
+  background-color: #13005A;
+  border: none;
+}
+
 .nav-icon{
   color: white;
-  font-size: 44px;
+  font-size: 36px;
   display: flex;
   justify-content: right;
   padding-right: 24px;
